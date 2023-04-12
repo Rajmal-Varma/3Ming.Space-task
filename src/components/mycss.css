@@ -1,0 +1,56 @@
+.box{
+   position:relative;
+   width:313px;
+   height: 544px;
+   background: hsl(0, 1%, 16%);
+   margin-top: 42px;
+   margin-left: 100px;
+   border-radius: 9px;
+
+}
+
+.box2{
+   position: relative;
+   width: 20rem;
+   height: 15rem;
+   border-radius: 9px;
+   padding-left: 1.2rem;
+   padding-top: 1.2rem;
+   padding-right: 1.2rem;
+   
+   align-content: center;
+}
+
+.box3{
+   position: absolute;
+width: 280px;
+height: 58px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 126.2%;
+/* or 19px */
+
+letter-spacing: 0.015em;
+
+color: #FFFFFF;
+}
+
+/* .box4{
+   position: absolute;
+width: 80px;
+height: 25px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 126.2%;
+/* or 25px */
+/*
+letter-spacing: 0.015em;
+
+color: #FFFFFF;
+} */
