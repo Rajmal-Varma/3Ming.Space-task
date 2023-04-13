@@ -4,9 +4,9 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
-  <Navbar/> 
-  <Game/>
-  <Footer/>
+  {/* <Navbar/>  */}
+   {/* <Game/> */}
+   <Footer/> 
     </>
   );
 }

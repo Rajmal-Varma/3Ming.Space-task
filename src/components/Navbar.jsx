@@ -21,16 +21,16 @@ import { FaBars, FaTimes } from "react-icons/fa";
    
          {/* Menu */}
    
-         <ul className="hidden md:flex  justify-between mx-1  font-medium  cursor-pointer">
-           <li className="text-xl mx-6">Home</li>
-           <li className="text-xl mx-6">About</li>
-           <li className="text-xl mx-6">Stream</li>
-           <li className="text-xl mx-6">Pramote</li>
-           <li className="text-xl mx-16">Blog</li>
+         <ul className="hidden md:flex lg:text-xl justify-between mx-1  font-medium  cursor-pointer">
+           <li className=" mx-6   sm:text-lg ">Home</li>
+           <li className=" mx-6   sm:text-lg ">About</li>
+           <li className=" mx-6   sm:text-lg ">Stream</li>
+           <li className=" mx-6   sm:text-lg ">Pramote</li>
+           <li className=" mx-16  sm:text-lg ">Blog</li>
          </ul>
    
          {/* Hamburger */}
-         <div onClick={handleClick} className="md:hidden z-10 md:justify-between">
+         <div onClick={handleClick} className="md:hidden cursor-pointer z-10 md:justify-between">
            {!nav ? <FaBars /> : <FaTimes />}
          </div>
    
@@ -44,11 +44,11 @@ import { FaBars, FaTimes } from "react-icons/fa";
                : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
            }
          >
-           <li className="py-6 text-4xl ">Home</li>
+           <li className="py-6 text-4xl">Home</li>
            <li className="py-6 text-4xl">About</li>
-           <li className="py-6 text-4xl">Skill</li>
-           <li className="py-6 text-4xl">Work</li>
-           <li className="py-6 text-4xl">Contact</li>
+           <li className="py-6 text-4xl">Stream</li>
+           <li className="py-6 text-4xl">Pramote</li>
+           <li className="py-6 text-4xl">Blog</li>
          </ul>
    </div>
      );
