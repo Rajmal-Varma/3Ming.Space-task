@@ -7,61 +7,86 @@ import social4 from "../assest/Ellipse 41.png";
 import social5 from "../assest/Ellipse 42.png";
 function Footer() {
   return (
+    <footer className="bg-[#141414] pt-4 rounded text-center dark:text-neutral-200 lg:text-right sm:text-right  ">
+      <div className="mx-6  lg:font-medium  text-center md:text-left justify-center align-middle">
+        <div className="grid-1 grid gap-1   sm:grid-row-2   lg:grid-cols-4 md:grid-cols-2">
+         
 
-    <footer className="bg-gray-700   py-10 mx-[-3px] cursor-pointer  md:flex md:justify-between   md:h-[15rem] w-[88rem]   rounded-lg ">
+<div className="flex  p-2 pt-2 justify-center">
+        <img src={Logo1} alt="" className="h-12 w-10 pb-1" />
 
-
-      <div className="flex p-4 mx-2">
-        <img src={Logo1} alt="" className="h-12 w-10 my-4" />
-
-        <div className="p-2">
-          <h1 className=" text-4xl py-2  font-semibold ">3Ming.Space</h1>
-          <span className=" font-medium">UNLOCK THE POWER OF WEB3 STREAMING <br/> ANYWHERE ANYTIME</span>
+        <div className="p-1 pb-10">
+          <h1 className=" text-3xl pb-2 px-2  font-semibold ">3Ming.Space</h1>
+          <span className="text-[15px] relative ">UNLOCK THE POWER OF WEB3 STREAMING "ANYWHERE ANYTIME"</span>
         </div>
       </div>
 
+          <div className="mx-24 pt-4">
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Community
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                faq
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Help
+              </a>
+            </p>
+          </div>
+
+          <div className="mx-4">
+            <p className="mb-1 pt-4">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                About us
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Terms of use
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Privacy Policy
+              </a>
+            </p>
+          </div>
+         
 
 
-      <div className="md:flex sm:flex lg:flex  xl:flex ml:text-center px-40 ml:justify-between md:px-16 ">
-      <div className="flex p-4 mx-2 ">
-    
-        <div className="p-2 text-xl mx-160 font-medium">
-          <h1 className="">community</h1>
-          <h1 className="">faq</h1>
-          <h1 className="">Help</h1>
+          <div className="grid pt-4 ">
+            <h6 className="lg:text-xl md:text-center md:ml-10 md:pl-[50px] xl:text-center flex justify-center font-semibold uppercase md:justify-start">
+              social
+            </h6>
+            <div className="mb-16  flex items-center justify-center  lg:pb-4 md:ml-10 md:pt-3 md:justify-start">
+              <p>
+                <img src={social1} alt="" className="w-7 mr-2" />
+              </p>
+
+              <p>
+                <img src={social2} alt="" className="w-7 mr-2" />
+              </p>
+
+              <p>
+                <img src={social3} alt="" className="w-7 mr-2" />
+              </p>
+              <p>
+                <img src={social4} alt="" className="w-7 mr-2" />
+              </p>
+
+              <p>
+                <img src={social5} alt="" className="w-7 mr-2" />
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-
-
-      
-      <div className="flex p-4 mx-2">
-      <div className="p-2 text-xl md:mx-10 font-medium ">
-          <h1 className=" ">About us</h1>
-          <h1 className=" ">Terms Of Use</h1>
-          <h1 className=" ">Privacy Policy</h1>
-      </div>
-      </div>
-
-
-
-      
-      <div className="flex  md:mx-1">
-      <div className="py-4 ">
-          <h1 className="text-3xl font-semibold mx-12">Social</h1>
-          <ul className="flex mt-3  " >
-            <img src={social1} alt="" className="px-1 ml-2 h-12 " />
-            <img src={social2} alt="" className="px-1 ml-2 h-12"/>
-            <img src={social3} alt="" className="px-1 ml-2 h-12"/>
-            <img src={social4} alt="" className="px-1 ml-2 h-12"/>
-            <img src={social5} alt="" className="px-1 ml-2 h-12"/>
-         </ul>
-        </div>
-      </div>
-      </div>
-
-
     </footer>
-   
   );
 }
 
