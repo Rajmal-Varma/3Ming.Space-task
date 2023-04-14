@@ -12,16 +12,15 @@ function Footer() {
         <div className="grid-1 grid gap-1   sm:grid-row-2   lg:grid-cols-4 md:grid-cols-2">
          
 
-<div className="flex  p-2 pt-2 justify-center">
+<div className="flex p-2 pt-2 justify-center">
         <img src={Logo1} alt="" className="h-12 w-10 pb-1" />
 
-        <div className="p-1 pb-10">
+        <div className="sm:p-1 pb-4 md:p-1 pb-10">
           <h1 className=" text-3xl pb-2 px-2  font-semibold ">3Ming.Space</h1>
-          <span className="text-[15px] relative ">UNLOCK THE POWER OF WEB3 STREAMING "ANYWHERE ANYTIME"</span>
+          <span className="text-[15px] relative ">UNLOCK THE POWER OF WEB3 STREAMING "ANYWHERE - ANYTIME"</span>
         </div>
       </div>
-
-          <div className="mx-24 pt-4">
+          <div className="hidden md:flex flex-col mx-24 pt-4">
             <p className="mb-1">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
                 Community
@@ -39,7 +38,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className="mx-4">
+          <div className="hidden md:flex flex-col mx-4">
             <p className="mb-1 pt-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
                 About us
@@ -56,7 +55,45 @@ function Footer() {
               </a>
             </p>
           </div>
-         
+          <div className="sm:flex flex-row md:hidden">
+            <div className="flex flex-row space-x-4 justify-center" >
+            <p className="mb-1">
+              <a href="#" className="text-neutral-600 dark:text-neutral-200">
+                Community
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                faq
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Help
+              </a>
+            </p>
+            </div>
+            <div className="flex flex-row space-x-4 justify-center" >
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                About us
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Terms
+              </a>
+            </p>
+            <p className="mb-1">
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Privacy
+              </a>
+            </p>
+            </div>
+            <div>
+
+            </div>
+          </div>
 
 
           <div className="grid pt-4 ">
